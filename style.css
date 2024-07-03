@@ -1,0 +1,153 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Bebas+Neue&family=Croissant+One&family=Poppins:wght@300&family=Sacramento&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&family=Bebas+Neue&family=Croissant+One&family=Josefin+Sans:wght@300;400&family=Poppins:wght@300&family=Sacramento&display=swap');
+
+  @font-face {
+        font-family: Momo;
+        src: url(./Heading-Now-Variable.ttf);
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    /*font-family: 'Barlow Semi Condensed', sans-serif;*/
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+#loader{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    background-color: white;
+}
+#loader img{
+    padding-top: 120px;
+    /*transform: rotate(180deg);
+    transition: transform 0.3s;*/
+}
+#loader h1{
+    font-size: 100px;
+    font-family: Momo;
+    color: black;
+    padding-top: 220px;
+    display: none;
+   
+}
+#main{
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+#page1 h1{
+    font-size: 45vh;
+    font-weight: 900;
+    font-stretch: 300%;
+    font-family: Momo;
+    color: white;
+    white-space: noWrap;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+#nav{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin-top: 15px;
+}
+#nav h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#nav h2:hover{
+    color: red;
+}
+#nav a {
+    text-decoration: none;
+    cursor: pointer;
+}
+#nav h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border: 1px white solid;
+    padding : 10px 20px 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#nav h4:hover{
+    color: #000;
+    background-color: white;
+    font-weight:900;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+#para{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    font-size: 10vh;
+}
+#para h1:nth-child(2){
+    color: red;
+}
+#page2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+#para2{
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    font-size: 10vh;
+}
+#para2 h1:nth-child(2){
+    color: red;
+}
+#page3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#main2{
+  position: relative;
+}
+#main2 .arrow{
+    
+    font-size: 50px;
+    position: fixed;
+    bottom: 30px;
+    right:20px;
+    z-index: 50;
+}
